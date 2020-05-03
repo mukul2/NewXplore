@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702594796722",
+    "firebase_url": "https://newxplore-ef6e6.firebaseio.com",
+    "project_id": "newxplore-ef6e6",
+    "storage_bucket": "newxplore-ef6e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702594796722:android:333678359f39866a4c0dab",
+        "android_client_info": {
+          "package_name": "com.rafiq.newxplore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702594796722-rl8doikk1rt0ui7odkhj5ee2nggnct0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQCYgt7OYHTGZnkkT93kEewzpk5XReopo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702594796722-rl8doikk1rt0ui7odkhj5ee2nggnct0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

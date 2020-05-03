@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.SecondLevelCategoryActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="60dp"
+                android:padding="20dp"
+                android:tint="@android:color/white"
+                android:onClick="back"
+                android:src="@drawable/left"
+                android:layout_height="60dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/app_name"
+                android:id="@+id/tv_title"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/my_recycler_view"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/ad_view_container"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</RelativeLayout>
